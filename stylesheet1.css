@@ -1,0 +1,85 @@
+
+    h1{
+    font-family:'Helvetica‍';
+    font-style: italic;
+    font-weight: lighter;
+    font-size:35px;
+    text-align:left;
+    color: black;
+    }
+    div img{
+        float: left;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    footer{
+    background-color: darkslategrey;
+}
+
+footer ul{
+    text-align: left;
+}
+footer ul li{
+    display: inline-block;
+    border: 0.5rem light black;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    color: black;
+}
+
+    .navbar ul{
+           text-align: center;
+           background-color: darkslategrey;
+       }
+
+        .navbar ul li{
+            display: inline-block;
+            color: wheat;
+            padding: 0.5rem;
+            margin: 1rem;
+            text-align: left;
+        }
+        a{
+            text-decoration: none;
+            list-style: none;
+            color: white;
+            background-color: darkslategrey;
+        }
+
+    a:link{
+      color: white;
+  }
+
+    a:focus{
+        text-decoration: rgba(rgb(189, 59, 59), green, blue, alpha);
+    }
+    a:hover{
+        color:turquoise;
+        text-decoration: underline;
+    }
+    a:active{
+        background-color:violet;
+    }
+    @media
+Screen and (max-width: 600px){
+    .navbar{
+        width: 100%;
+    }
+    ul{
+        width: 100%;
+    }
+     
+    footer{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    img{
+        max-width: 100%;
+    }
+
+}
