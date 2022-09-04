@@ -8,7 +8,7 @@
 
 body{
     background-repeat: no-repeat;
-    /*background-image: url(Media/_7ac8fcae-000f-11e7-a3af-7fa15638f741.webp);*/
+    background-image: url(Media/_7ac8fcae-000f-11e7-a3af-7fa15638f741.webp);
     
     box-sizing: border-box;
     font-family: sans-serif;
@@ -135,7 +135,7 @@ main h2{
 main img{
     width: 25%;
     margin-left: 5%;
-    border-radius: 50%;
+    border-radius: 10px;
     display: flexbox;
     margin-top: 20px;
 }
@@ -218,8 +218,8 @@ main h2{
 
 main img{
     width: 25%;
-    margin-left: 35%;
-    border-radius: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
     display: block;
     margin-top: 20px;
 }
