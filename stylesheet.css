@@ -20,7 +20,7 @@ body{
     margin-left: 0%;
 }
 .menu-bar{
-    background: aqua;
+    background: black;
     text-align: center;
     margin-top: 0px;
     position: fixed;
@@ -197,6 +197,12 @@ Screen and (max-width: 600px){
         display:block;
         width: 100%;
 
+
+    }
+    
+    
+    .homebar:hover .menu-bar ul{
+        display:block;
 
     }
 
