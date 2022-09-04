@@ -205,11 +205,6 @@ Screen and (max-width: 600px){
         display:block;
 
     }
-    
-    .homebar:hover .menu-bar ul:first-child{
-        padding-top: 80px;
-
-    }
 
 
     .homebar:hover .menu-bar ul li a{
