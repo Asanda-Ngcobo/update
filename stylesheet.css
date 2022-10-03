@@ -145,6 +145,7 @@ main img{
     margin-bottom: 10px;
 }
 
+
 footer{
     background-color: black;
     height: 150px;
@@ -223,6 +224,22 @@ main img{
     display: block;
     margin-top: 20px;
 }
+    
+    .sharebutton{
+    display: block;
+    cursor: pointer;
+}
+
+.share-btn{
+    display:none;
+    
+}
+
+.sharebutton:hover .share-btn{
+    display: inline-block;
+    width: 100%;
+}
+
     footer{
         width: 100%;
     }
